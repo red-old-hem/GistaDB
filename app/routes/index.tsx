@@ -14,11 +14,12 @@ export default function Page() {
 
       <section className="rounded-box border border-base-300 bg-base-100 p-6">
         <h2 className="text-lg font-semibold">Next steps</h2>
-        <ol className="mt-3 list-inside list-decimal space-y-2 text-base-content/80">
-          <li>Define your first tables in `app/.server/db/schema.ts`</li>
-          <li>Apply changes with `atlas schema apply --env dev`</li>
-          <li>Start building routes with server loaders and actions</li>
-        </ol>
+        <p className="mt-3 text-base-content/80">
+          Start by creating a form builder:
+        </p>
+        <a className="btn mt-4 btn-primary" href="/forms/new">
+          Create a new form
+        </a>
       </section>
     </main>
   )
